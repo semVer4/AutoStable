@@ -1,0 +1,1306 @@
+@import './reset.css';
+
+@font-face {
+    font-family: 'GilroyBold';
+    src: url('../fonts/Gilroy-ExtraBold.otf'), url('../fonts/Gilroy-Light.otf');
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy-Light.otf');
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    cursor: pointer;
+}
+
+body { 
+    font-family: 'Gilroy'; 
+    background: url('../img/back.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+.burger-menu {
+    display: none;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.burger-line {
+    display: block;
+    width: 30px;
+    height: 3px;
+    margin: 5px 0;
+    background-color: black;
+    transition: all 0.3s ease;
+}
+
+.container {
+    max-width: 1410px;
+    margin: 0 auto;
+
+    padding: 0px 10px 0px 10px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 259px;
+    height: 35.05px;
+}
+
+.links ul li {
+    display: inline;
+    font-weight: normal;
+}
+
+.links ul li a {
+    font-size: 18px;
+    margin: 5px;
+    color: #1C1C1C;
+}
+
+.social-links img {
+    width: 22.55px;
+    height: 20.12px;
+    float: right;
+    margin: 3px;
+}
+
+#yt-icon { width: 28.59px; }
+
+.menu-modal .social-links { display: none; }
+
+.social-links {
+    display: block;
+    max-width: 130px;
+}
+
+.social-links span { font-size: 17px; }
+
+
+/*HOME*/
+.container-home {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.home-menu {
+    height: 700px;
+}
+
+.home-text {
+    z-index: 1000;
+    position: relative;
+    top: 100px;
+    left: 3%;
+
+    max-width: 641px;
+}
+
+.home-side {
+    margin-top: 30px;
+    max-width: 429px;
+}
+
+.home-side span { font-size: 17px; line-height: 19.72px; }
+
+.home-button {
+    position: relative;
+    top: 50px;
+}
+
+.home-button a {
+    text-transform: uppercase;
+    padding: 18px 70.25px 18px 70.25px;
+    border: 2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+}
+
+.home-text h1 {
+    font-size: 60px;
+    font-family: 'GilroyBold';
+}
+
+#autost {
+    font-family: 'GilroyBold';
+    color: #007747;
+    text-transform: uppercase;
+    line-height: 21.22px;
+    letter-spacing: 0.3cap;
+}
+
+#green-text {
+    background-color: #007D4B;
+    color: #fff;
+    padding: 0px 10px 5px 10px;
+}
+
+.home-img {
+    position: relative;
+    z-index: 0;
+    right: -37%;
+    bottom: 39%;
+}
+
+.home-img img {
+    width: 1508px;
+    height: 726px;
+}
+
+/*carts home*/
+.home-down-text {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    max-width: 1282px;
+    justify-content: space-around;
+
+    margin: 0 auto;
+}
+
+.home-blocks {
+    max-width: 430px;
+    color: #fff;
+    background-color: #1B1717;
+    padding: 30px 30px 80px 30px;
+}
+
+.home-blocks h1 {
+    font-family: 'GilroyBold';
+}
+
+.block-2 {
+    background-color: #007747;
+}
+
+.home-blocks h1 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.home-blocks span {
+    position: relative;
+    top: 30px;
+    font-size: 17px;
+}
+
+/*ABOUT*/
+.container-about {
+    display: flex;
+    justify-content: center;
+
+    margin: 0 auto;
+    height: 0px;
+}
+
+.about { margin-top: 100px; }
+
+.up-text {
+    max-width: 532px;
+
+    display: flex;
+    justify-content: space-between;
+    color: #007C4A;
+}
+
+.up-text span {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: 'GilroyBold';
+}
+
+.up-text a {
+    font-size: 19.76px;
+    font-weight: bold;
+    color: #007C4A;
+}
+
+.up-text svg {
+    position: relative;
+    top: 0.5px;
+}
+
+.left-side h1 {
+    font-size: 50px;
+    font-family: 'GilroyBold';
+    margin-top: 10px;
+}
+
+.left-side {
+    position: relative;
+    right: 10px;
+
+    z-index: 1000;
+}
+
+.right-side {
+    max-width: 731px;
+
+    position: relative;
+    left: 60px;
+
+    z-index: 1000;
+}
+
+.right-side span {
+    font-size: 22px;
+    line-height: 30.8px;
+}
+
+.li-about {
+    max-width: 720px;
+}
+
+.li-about li {
+    list-style-image: url('../img/icon/li.png');
+    font-size: 17px;
+    margin: 10px;
+    line-height: 20.01px;
+}
+
+.block-li {
+    max-width: 625px;
+    display: flex;
+}
+
+.about-img {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+    right: 600px;
+    overflow: hidden;
+}
+
+.about-img img {
+    max-width: 2520px;
+    max-height: 888px;
+}
+
+.down-block {
+    display: flex;
+    width: 100%;
+    background-color: #007D4B;
+    height: 138px;
+    margin-top: -100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.down-p {
+    font-size: 45px;
+    font-family: 'GilroyBold';
+    line-height: 31.2px;
+    color: #fff;
+    text-align: center;
+}
+
+.down-span {
+    font-size: 15px;
+    line-height: 17.89px;
+    color: #fff;
+    text-transform: uppercase;
+    position: relative;
+    top: 25px;
+    letter-spacing: 0.2cap;
+}
+
+.down-columns {
+    text-align: center;
+    margin: 25px;
+
+    position: relative;
+    left: 300px;
+}
+
+
+
+/*CARS-LIST*/
+.cars-list {
+    margin-top: 100px;
+}
+
+.cars-up-text {
+    font-size: 153.1px;
+    font-family: 'GilroyBold';
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.07cap;
+}
+
+.cars-sort {
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.car-cart {
+    display: flex;
+    margin: 50px 0px 60px 0px;
+}
+
+#carCards {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-img img {
+    width: 653px;
+    height: 394px;
+}
+
+.sort-block1 {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+/* .sort-block2 {
+    display: flex;
+    justify-content: flex-end;
+} */
+
+.sort-cost {
+    margin-left: 40px;
+}
+
+.sort-brands {
+    display: flex;
+    flex-direction: column;
+}
+
+.sort-block1 select {
+    border: 2px solid #787878;
+    width: 192px;
+    height: 54px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 10px;
+    font-size: 23.02px;
+    color: #787878;
+    margin-top: 19px;
+}
+
+.sort-block1 input {
+    border: 2px solid #787878;
+    width: 192px;
+    height: 54px;
+    padding: 0px 0px 0px 10px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 10px;
+    font-size: 23.02px;
+    color: #787878;
+}
+
+.sort-block1 label {
+    font-size: 25px;
+    font-family: 'GilroyBold';
+}
+
+.sort-models {
+    display: flex;
+    flex-direction: column;
+}
+
+.cart-text {
+    margin-left: 50px;
+}
+
+.car-desc {
+    max-width: 550px;
+    margin-top: 20px;
+}
+
+.car-desc span {
+    font-size: 13.94px;
+    line-height: 16.41px;
+}
+
+.cars-name span {
+    font-size: 36.9px;
+    font-family: 'GilroyBold';
+}
+
+.cart-data {
+    margin-top: 20px;
+}
+
+.cart-data li {
+    margin: 10px 0px 11px 0px;
+    list-style-image: url('../img/icon/li.png');
+}
+
+
+
+
+/*ORDER-CARS*/
+.order-container {
+    overflow: hidden;
+    margin-top: 200px;
+}
+
+.order-img {
+    z-index: 0;
+    position: relative;
+    left: 300px;
+}
+
+.order-img {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    bottom: 750px;
+    left: 500px;
+}
+
+.order-img img {
+    width: 1885px;
+    height: 1148px;
+}
+
+.order-text {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    right: 380px;
+    top: 150px;
+}
+
+.order-left {
+    z-index: 900;
+    margin: 0 auto;
+    max-width: 655px;
+}
+
+.order-left h1 {
+    font-size: 50px;
+    font-family: 'GilroyBold';
+}
+
+.order-side {
+    position: relative;
+    top: 10px;
+}
+
+.order-side span {
+    font-size: 17px;
+    line-height: 19.72px;
+}
+
+.order-arrow {
+    position: relative;
+    top: 100px;
+    left: 200px;
+}
+
+/*order-form*/
+.order-form {
+    width: 100%;
+    height: 693px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: -750px;
+    z-index: 1000;
+}
+
+.form {
+    padding: 50px;
+    padding-top: 70px;
+}
+
+.form input {
+    width: 309.88px;
+    height: 58.6px;
+    font-size: 15.98px;
+    color: black;
+    border-radius: 50px;
+    background-color: #fff;
+    border: 0.2px solid silver;
+    box-shadow: 1px 2px 1px silver;
+    padding: 20px;
+}
+
+.order-col4 {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.order-col2 {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 0px 50px 0px;
+}
+
+.inputs label {
+    font-size: 15.98px;
+    font-family: 'GilroyBold';
+    color: #0C0A48;
+}
+
+.inputs input::-webkit-input-placeholder {
+    color: #0C0A48;
+}
+
+.inputs input {
+    margin-top: 10px;
+}
+
+.inputs span {
+    font-size: 9.61px;
+    color: #6F6C8F;
+}
+
+.inp-comment input {
+    width: 100%;
+    height: 149.17px;
+    border-radius: 10px;
+}
+
+.inp-comment input::-webkit-input-placeholder {
+    position: relative;
+    bottom: 35px;
+}
+
+.order-checkbox {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+    bottom: 30px;
+}
+
+.order-checkbox input {
+    width: 18.84px;
+    height: 18.84px;
+}
+
+.order-checkbox label {
+    font-size: 12.43px;
+    color: #6F6C8F;
+}
+
+.order-btn {
+    width: 307px;
+    height: 62.72px;
+    color: #fff;
+    background-color: #007D4B;
+    border-radius: 50px;
+    font-family: 'GilroyBold';
+    box-shadow: 0px 0px 10px #007D4B;
+    letter-spacing: 0.1cap;
+}
+
+.order-btn:hover {
+    box-shadow: 0px 0px 20px #007D4B;
+}
+
+
+
+/*REVIEW-CONTAINER*/
+.review {
+    margin-top: 150px;
+}
+
+.review-text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.review-text h1 {
+    font-size: 50px;
+    font-family: 'GilroyBold';
+}
+
+
+.review-text-right {
+    position: relative;
+    bottom: 20px;
+}
+
+
+/*REVIEWS-BLOCK*/
+.vis {
+    display: flex;
+    justify-content: center;
+}
+
+.review-span {
+    font-size: 21px;
+    font-style: italic;
+    line-height: 34px;
+    color: black;
+}
+
+.rev-blocks {
+    max-width: 687px;
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.rev-blocks.active {
+    display: block;
+    opacity: 1;
+}
+
+.data-review {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+
+.name-person {
+    font-size: 20px;
+    font-family: 'GilroyBold';
+    letter-spacing: 0.1cap;
+}
+
+.data-review p {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.person-car {
+    color: #007D4B;
+    font-family: 'GilroyBold';
+}
+
+.review-arrows {
+    max-width: 1600px;
+
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 180px;
+    margin: 0 auto;
+}
+
+
+/*FOOTER*/
+.footer {
+    margin-top: 300px;
+    background-color: #1B1717;
+    padding: 50px;
+    color: #fff;
+}
+
+.footer-up-text {
+    color: black;
+    background-color: #fff;
+    height: 250px;
+    padding: 60px 0px 100px 0px;
+    max-width: 100%;
+
+    position: relative;
+    bottom: 100px;
+}
+
+.foot {
+    font-size: 55px;
+    text-align: center;
+}
+
+.footer-data {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot-logo {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-logo img {
+    width: 207.58px;
+    height: 125.65px;
+}
+
+.foot-logo span {
+    max-width: 418px;
+    margin-top: 20px;
+}
+
+.foot-contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.foot-contacts h1 {
+    font-size: 24.48px;
+    font-family: 'GilroyBold';
+}
+
+.foot-contacts span {
+    font-size: 16.65px;
+    position: relative;
+    margin: 10px;
+}
+
+.foot-contacts svg {
+    position: relative;
+    right: 10px;
+}
+
+.foot-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.foot-icons img {
+    width: 25px;
+    height: 33px;
+}
+
+.foot-linea {
+    width: 100%;
+    background-color: #545151;
+    position: relative;
+    top: 70px;
+    height: 1px;
+}
+
+.foot-privacy {
+    display: flex;
+    justify-content: space-between;
+    color: #fff;
+
+    margin-top: 100px;
+}
+
+.foot-privacy span {
+    font-size: 14.69px;
+}
+
+.foot-privacy a {
+    font-size: 14.69px;
+    color: #fff;
+}
+
+
+
+
+/*ABOUT PAGE*/
+.about-all {
+    height: 800px;
+}
+
+.about-bluecar {
+    position: relative;
+    right: -200px;
+    bottom: 200px;
+}
+
+.about-bluecar img {
+    height: 1200px;
+}
+
+.about2-up-text {
+    font-size: 50px;
+    text-transform: none;
+}
+
+.about2-block-up {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 50px;
+}
+
+.middle-up {
+    max-width: 235.46px;
+}
+
+.end-up {
+    max-width: 660.74px;
+}
+
+.li-about-all {
+    max-width: 1410px;
+}
+
+.li-about-flex {
+    margin-top: 50px;
+}
+
+
+
+/*ABOUT-BACK*/
+.about-back {
+    background: url('/img/aboutback.png');
+    
+    background-repeat: no-repeat; 
+    background-position: center;
+    height: 817px;
+    margin-top: 100px;
+}
+
+.about-back-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+
+.abb-all {
+    height: 180px;
+    background-color: rgba(0, 0, 0, 0.71);
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-size: 18.45px;
+    padding: 30px;
+    line-height: 22.01px;
+
+    margin-top: 40%;
+}
+
+.abb1 {
+    max-width: 788px;
+}
+
+.abb2 {
+    max-width: 580px;
+}
+
+.about2-down-block {
+    margin-top: 70px;
+}
+
+.down-columns1 {
+    text-align: center;
+    margin: 50px;
+}
+
+
+/*FORM-ABOUT2*/
+.form-about2 {
+    margin-top: 230px;
+}
+
+.form-up-text {
+    font-size: 40px;
+    max-width: 1029px;
+    margin: 0 auto;
+    text-transform: none;
+    text-align: center;
+}
+
+.about2-form {
+    margin-top: 50px;
+}
+
+
+
+/*CARS-LIST PAGE*/
+.cars-list2 {
+    margin-top: 100px;
+    height: 1000px;
+}
+
+.cars-list2-text {
+    position: relative;
+    bottom: 210px;
+}
+
+.cars-list2-text svg {
+    position: relative;
+    left: 47%;
+    bottom: 410px;
+}
+
+.cars-list2-black {
+    background-color: #1B1717;
+    color: #fff;
+
+    padding-top: 100px;
+}
+
+.cars2-all {
+    padding: 0px 0px 100px 0px;
+}
+
+.cars2-all h1 {
+    font-size: 64.65px;
+    font-family: 'GilroyBold';
+    max-width: 613px;
+}
+
+.cars2-all img {
+    margin-top: 50px;
+    width: 100%;
+    border-radius: 0;
+}
+
+.cars2-name {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.cars2-name span {
+    max-width: 545.28px;
+    font-size: 20px;
+    line-height: 23.54px;
+}
+
+.cars2-desc {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car2-menu {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.cars2-btn {
+    text-align: right
+}
+
+.cars2-btn a {
+    color: #fff;
+    border: 2px solid #fff;;
+}
+
+.cars2-cost {
+    font-size: 64.65px;
+    font-family: 'GilroyBold';
+}
+
+.cars2-location {
+    text-align: right;
+}
+
+
+.cars2-img {
+    display: flex;
+    justify-content: center;
+
+    position: relative;
+    bottom: 600px;
+    z-index: -1;
+}
+
+.cars2-up-text {
+    position: relative;
+    right: 250px;
+    top: 50px;
+}
+
+.modal-overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.832);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer; 
+}
+
+.modal-content {
+    position: relative;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 80%;
+    max-height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: auto;
+}
+
+.image-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.modal-image {
+    width: 800px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.arrow {
+    position: absolute;
+    top: 90%;
+    transform: translateY(-50%);
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 50px;
+    border-radius: 50%;
+}
+
+.left {
+    left: 20px;
+}
+
+.right {
+    right: 20px;
+}
+
+.thumbnail-container {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+.thumbnail {
+    width: 190px;
+    min-height: 100px;
+    object-fit: cover;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.thumbnail-container::-webkit-scrollbar {
+    display: none;
+}
+
+.thumbnail-container::-webkit-scrollbar-thumb {
+    display: none;
+}
+
+.thumbnail-container::-webkit-scrollbar-track {
+    display: none;
+}
+
+
+/*CONTACTS2-PAGE*/
+.contacts2 {
+    margin-top: 100px;
+}
+
+.cont2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ct1 h1 {
+    font-size: 60px;
+    font-family: 'GilroyBold';
+}
+
+.ct1 span {
+    font-size: 27.52px;
+}
+
+.ct2 iframe {
+    width: 818px;
+    height: 187px;
+    margin-top: 20px;
+}
+
+.ct2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.ct2 span {
+    font-size: 27.62px;
+}
+
+
+
+/*EQ-PAGE*/
+/*modal-eq*/
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.modal-content-eq {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 90%;
+    max-width: 1410px;
+    height: 497px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    align-items: center;
+
+    text-align: left;
+}
+
+#m-up h1 {
+    font-size: 45px;
+    font-family: 'GilroyBold';
+    letter-spacing: 0.2cap;
+    text-transform: uppercase;
+}
+
+#modal-desc {
+    font-size: 16.16px;
+    line-height: 19.02px;
+}
+
+#modal-price {
+    position: relative;
+    top: 30px;
+    color:#007D4B;
+    font-size: 45.3px;
+    font-family: 'GilroyBold';
+}
+
+.modal-content-eq img {
+    width: 500px;
+}
+
+.close-modal-eq {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    color: black;
+}
+
+.modal-img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.modal-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.modal-desc {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.modal-price {
+    font-size: 20px;
+    color: green;
+    font-weight: bold;
+}
+/*---*/
+
+.equipment {
+    margin-top: 150px;
+}
+
+.eq-text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.eq-text h1 {
+    font-size: 139px;
+    line-height: 145.33px;
+    font-family: 'GilroyBold';
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.eq-text img {
+    margin-top: 50px;
+}
+
+.eq-h1 {
+    font-size: 50px;
+    font-family: 'GilroyBold';
+}
+
+.list-products {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 50px;
+
+    margin-top: 50px;
+}
+
+.all-products {
+    margin: 0px 0px 100px 0px;
+}
+
+.list-product {
+    max-width: 448px;  
+}
+
+.img-prod {
+    width: 446.68px;
+    height: 406.75;
+}
+
+.name-prod {
+    font-size: 36.9px;
+    letter-spacing: 0.2cap;
+    line-height: 55.35px;
+    font-family: 'GilroyBold';
+}
+
+.desc-prod {
+    font-size: 20px;
+    line-height: 23.54px;
+}
+
+.cost-p {
+    color: #007D4B;
+    font-size: 36.9px;
+    font-family: 'GilroyBold';
+
+    margin-top: 20px;
+}
+
+
+.contacts2 {
+    margin-top: 200px;
+}

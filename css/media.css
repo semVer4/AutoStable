@@ -1,0 +1,544 @@
+@media screen and (width < 1390px) {
+    .links {
+        display: none; 
+    }
+
+    .overlay {
+        display: none; 
+    }
+
+    .burger-menu {
+        display: block;
+    }
+
+    .menu-modal {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #007d4bef;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease;
+        z-index: 100000;
+    }
+
+    .menu-modal.show {
+        display: flex;
+    }
+
+    .menu-modal ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        z-index: 100000;
+    }
+
+    .menu-modal ul li {
+        margin: 15px 0;
+    }
+
+    .menu-modal ul li a {
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+        font-family: 'GilroyBold';
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+
+    .menu-modal ul li a:hover {
+        color: #000000;
+    }
+
+    .menu-modal .social-links {
+        display: block;
+        margin-top: 150px;
+        margin-left: 30px;
+
+        color: #fff;
+        max-width: 250px;
+    }
+
+    .menu-modal .social-links span {
+        font-size: 30px;
+        font-family: 'GilroyBold';
+    }
+
+    .menu-modal .social-links img {
+        width: 40px;
+        height: 40px;
+        position: relative;
+        right: 35px;
+    }
+
+    #yt-icon {
+        width: 60px;
+    }
+
+    .link-cont {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .social-links {
+        display: none;
+    }
+
+    .home-menu {
+        max-width: 1410px;
+    }
+
+    #home-ram {
+        display: none;
+    }
+
+    .home-text {
+        text-align: center;
+    }
+
+    .home-side {
+        position: relative;
+        left: 100px;
+    }
+
+
+    .home-down-text {
+        margin-top: -100px;
+    }
+
+    /*CARS-UP-TEXT*/
+    .order-container {
+        max-width: 1410px;
+    }
+
+    .order-text {
+       position: relative;
+       left: -5px;
+    }
+
+    .order-left {
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .order-img {
+        display: none;
+    }
+
+    .order-arrow {
+        display: none;
+    }
+
+
+    .order-form {
+        margin-top: 230px;
+    }
+
+    .about-img {
+        display: none;
+    }
+
+    .down-block {
+        margin-top: 450px;
+    }
+
+    .container-about {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 500px;
+        
+    }
+
+    .left-side {
+        margin: 0 auto;
+    }
+
+    .up-text {
+        text-align: center;
+        display: flex;
+    }
+
+    .right-side {
+        margin: 0 auto;
+    }
+
+    .block-li {
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .down-columns {
+        position: relative;
+        left: 0;
+    }
+
+    .order-col4 {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    
+    .order-col2 {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+
+    .form input {
+        width: 100%;
+    }
+
+    .order-form {
+        height: 1300px;
+    }
+
+    .order-checkbox {
+        float: left;
+    }
+
+    .order-checkbox input {
+        width: 18.84px;
+        height: 18.84px;
+    }
+
+    .order-btn {
+        width: 100%;
+        position: relative;
+        top: 15px;
+    }
+
+    .order-col2 {
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+
+    /*review*/
+    .vis {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+        text-align: center;
+        top: 100px;
+        padding: 0;
+    }
+
+    .rev-block2 { display: none; }
+
+    .review-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .rev-blocks {
+        margin: 0 auto;
+    }
+
+    .footer-up-text {
+        height: 300px;
+    }
+
+    /*CONT2-PAGE*/
+    .cont2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .ct2 {
+        margin-top: 100px;
+    }
+
+    .ct2 iframe {
+        width: 100%;
+        height: 300px;
+    }
+
+    .form-about2 {
+        margin-top: 100px;
+    }
+
+    .about2-form {
+        margin-top: 70px;
+    }
+
+    .about2-down-block {
+        display: none;
+    }
+
+    .abb-all {
+        height: 250px;
+    }
+}
+
+
+@media screen and (width < 900px) {
+    .home-down-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .home-blocks {
+        max-width: 1410px;
+    }
+
+    /*CART-SORT*/
+    .sort-block1 {
+        display: flex;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .sort-block1 select {
+        width: 100%;
+    }
+
+    .sort-block1 input {
+        width: 100%;
+    }
+
+    .sort-cost {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .sort-cost span {
+        display: none;
+    }
+
+    .sort-cost input { width: 100%; }
+
+
+    /*CARTS*/
+    .car-cart {
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .cart-img img {
+        width: 100%;
+    }
+
+    .cart-text {
+        margin: 50px;
+    }
+
+    .cars-up-text {
+        font-size: 40px;
+    }
+
+    .right-side span {
+        font-size: 17px;
+    }
+
+    .right-side {
+        max-width: 500px;
+    }
+
+    .li-about {
+        max-width: 500px;
+    }
+
+    .left-side h1 {
+        font-size: 40px;
+    }
+
+    .container-about {
+        float: left;
+        position: relative;
+        bottom: 150px;
+    }
+
+    .down-block {
+        display: none;
+    }
+
+    .cars-list {
+        margin-top: 1000px;
+    }
+
+
+    /*ABOUT2-PAGE*/
+    .about-bluecar {
+        display: none;
+    }
+
+    .about2 {
+        margin-top: -450px;
+    }
+
+    .about2-block-up {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .middle-up {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .end-up {
+        margin-top: 50px;
+    }
+
+    .about-back-blocks {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .abb-all {
+        margin-top: 8%;
+    }
+}
+
+@media screen and (width < 700px) {
+    .home-text h1 {
+        font-size: 35px;
+        max-width: 400px;
+    }
+    
+    .home-side {
+        position: relative;
+        left: -15px;
+    }
+    
+    .home-button a {
+        padding: 10px 40.25px 10px 40.25px;
+        font-size: 18px;
+    }
+
+    .home-down-text {
+        position: relative;
+        bottom: 50px;
+    }
+
+    .left-side h1 {
+        font-size: 33px;
+        text-align: center;
+        position: relative;
+        bottom: 10px;
+    }
+
+    .left-side {
+        position: relative;
+        left: 8px;
+    }
+
+    .right-side {
+        width: 350px;
+        text-align: left;
+        position: relative;
+        left: -0px;
+    }
+
+    .right-side span {
+        font-size: 12px;
+        line-height: 1px;
+    }
+
+    .li-about {
+        max-width: 450px;
+    }
+
+    .li-about li {
+        font-size: 12px;
+    }
+
+    .block-li li {
+        font-size: 12px;
+    }
+
+    .home-blocks h1 {
+        font-size: 18px;
+    }
+
+    .home-blocks span {
+        font-size: 13px;
+    }
+
+    #dn {
+        display: none;
+    }
+
+    .order-cars {
+        margin-top: -200px;
+    }
+
+    .order-col2 {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .cart-img img {
+        height: 250px;
+    }
+
+    .review-arrows {
+        position: relative;
+        top: 70px;
+    }
+
+
+    /*FOOTER*/
+    .footer-up-text h1 {
+        font-size: 20px;
+    }
+
+    .footer-up-text {
+        height: 100px;
+    }
+
+    .footer-data {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .foot-contacts {
+        margin-top: 20px;
+    }
+
+    .foot-privacy span {
+        font-size: 10px;
+    }
+
+    .foot-privacy a {
+        font-size: 10px;
+    }
+
+    .ct1 h1 {
+        font-size: 40px;
+    }
+
+    .ct2 span {
+        font-size: 18px;
+    }
+
+    .cars-up-text {
+        font-size: 25px;
+    }
+}
