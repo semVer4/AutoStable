@@ -15,17 +15,33 @@
                     <a href="index.html"><img src="img/logo.png"></a>
                 </div>
 
-                <div class="links">
-                    <ul>
-                        <li><a href="index.html">Главная</a></li>
-                        <li><a href="about.html">О Нас</a></li>
-                        <li><a href="cars-list.html">Авто в наличии</a></li>
-                        <li><a href="index.html#path">Авто в пути</a></li>
-                        <li><a href="index.html#dn">Авто под заказ</a></li>
-                        <li><a href="equipment.html">Доп. оборудование</a></li>
-                        <li><a href="contacts.html">Контакты</a></li>
-                        <li><a href="index.html#review">Отзывы</a></li>
-                    </ul>
+                <div class="burger-menu" id="burger-menu">
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                    <span class="burger-line"></span>
+                </div>
+                
+                <div class="links menu-modal" id="menu-modal">
+                    <div class="link-cont">  
+                        <ul class="menu-links">
+                            <li><a href="index.html">Главная</a></li>
+                            <li><a href="about.html">О Нас</a></li>
+                            <li><a href="cars-list.html">Авто в наличии</a></li>
+                            <li><a href="index.html#path">Авто в пути</a></li>
+                            <li><a href="index.html#dn">Авто под заказ</a></li>
+                            <li><a href="equipment.html">Доп. оборудование</a></li>
+                            <li><a href="contacts.html">Контакты</a></li>
+                            <li><a href="index.html#review">Отзывы</a></li>
+                        </ul>
+
+                        <div class="social-links">
+                            <span>8 812 924-08-83</span>
+                            <img src="img/icon/inst.png">
+                            <img src="img/icon/vk.png">
+                            <img src="img/icon/tg.png">
+                            <img src="img/icon/yt.png" id="yt-icon">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="social-links">
@@ -303,6 +319,7 @@
         </div>
     </footer>
 
+    <script src="js/header-modal.js"></script>
     <script src="js/modal-carlist.js" type="text/javascript"></script>
 </body>
 </html>

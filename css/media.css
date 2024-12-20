@@ -42,13 +42,13 @@
     }
 
     .menu-modal ul li {
-        margin: 15px 0;
+        margin: 13px 0;
     }
 
     .menu-modal ul li a {
         text-decoration: none;
         color: white;
-        font-size: 30px;
+        font-size: 25px;
         font-family: 'GilroyBold';
         font-weight: bold;
         transition: color 0.3s ease;
@@ -60,27 +60,27 @@
 
     .menu-modal .social-links {
         display: block;
-        margin-top: 150px;
+        margin-top: 20px;
         margin-left: 30px;
 
         color: #fff;
-        max-width: 250px;
+        max-width: 210px;
     }
 
     .menu-modal .social-links span {
-        font-size: 30px;
+        font-size: 25px;
         font-family: 'GilroyBold';
     }
 
     .menu-modal .social-links img {
-        width: 40px;
-        height: 40px;
+        width: 25px;
+        height: 25px;
         position: relative;
-        right: 35px;
+        right: 50px;
     }
 
     #yt-icon {
-        width: 60px;
+        width: 40px;
     }
 
     .link-cont {
@@ -285,6 +285,18 @@
     .abb-all {
         height: 250px;
     }
+
+    .cars-list2-text {
+        margin-top: 200px;
+    }
+
+    .cars-list2-text svg {
+        display: none;
+    }
+
+    .cars-list2 h1 {
+        font-size: 40px;
+    }
 }
 
 
@@ -412,6 +424,10 @@
     .abb-all {
         margin-top: 8%;
     }
+
+    .cars-list2-black {
+        margin-top: -250px;
+    }
 }
 
 @media screen and (width < 700px) {
@@ -503,6 +519,10 @@
     }
 
 
+    .cars-list2-black {
+        margin-top: -250px;
+    }
+
     /*FOOTER*/
     .footer-up-text h1 {
         font-size: 20px;
@@ -540,5 +560,13 @@
 
     .cars-up-text {
         font-size: 25px;
+    }
+
+    .abb-all {
+        height: 300px;
+    }
+
+    .form {
+        padding: 40px 0px 0px 0px;
     }
 }

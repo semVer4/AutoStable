@@ -857,7 +857,7 @@ header {
 
 /*ABOUT-BACK*/
 .about-back {
-    background: url('/img/aboutback.png');
+    background: url('../img/aboutback.png');
     
     background-repeat: no-repeat; 
     background-position: center;
