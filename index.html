@@ -27,8 +27,7 @@
                             <li><a href="index.html">Главная</a></li>
                             <li><a href="about.html">О Нас</a></li>
                             <li><a href="cars-list.html">Авто в наличии</a></li>
-                            <li><a href="index.html#path">Авто в пути</a></li>
-                            <li><a href="index.html#dn">Авто под заказ</a></li>
+                            <li><a href="index.html#order">Авто под заказ</a></li>
                             <li><a href="equipment.html">Доп. оборудование</a></li>
                             <li><a href="contacts.html">Контакты</a></li>
                             <li><a href="index.html#review">Отзывы</a></li>
@@ -211,7 +210,7 @@
 
         <section class="order-cars">
             <div class="order-container">
-                <h1 class="cars-up-text" id="dn">
+                <h1 class="cars-up-text" id="order">
                     Под заказ
                 </h1>
 
@@ -234,7 +233,7 @@
 
                 <div class="container">
                     <div class="order-form">
-                        <form action="" method="POST" class="form" id="order-form">
+                        <form action="send-mail.php" method="POST" class="form" id="order-form">
                             <div class="order-col4">
                                 <div class="inputs">
                                     <label for="name">Имя*</label>
@@ -268,13 +267,13 @@
                     
                                 <div class="inputs">
                                     <label for="budget">Бюджет</label>
-                                    <input id="budget" placeholder="Укажите бюджет" type="number" name="budget" />
+                                    <input id="budget" placeholder="20000" type="number" name="budget" />
                                 </div>
                             </div>
                             
                             <div class="inputs inp-comment">
                                 <label for="comment">Комментарий</label>
-                                <input id="comment" placeholder="Если у вас есть дополнительные пожелания, пожалуйста, укажите их здесь." type="text" name="comment" />
+                                <input id="comment" placeholder="Укажите, пожалуйста, ваши пожелания по цвету, пробегу и дополнительным опциям" type="text" name="comment" />
                             </div>
                     
                             <div class="order-checkbox">
@@ -351,36 +350,6 @@
                                 </p>
                             </div>
                         </div>
-
-                        <div class="rev-block1 rev-blocks">
-                            <span class="review-span">
-                                TEST(2) огромную благодарность компании АвтоСтабильность! Благодаря их профессионализму и внимательному подходу, моя мечта о собственном автомобиле из Европы стала реальностью. Сотрудники компании сопровождали процесс на каждом этапе, начиная от поиска машины и заканчивая оформлением всех документов. Машина приехала в идеальном состоянии, именно такой, как я хотел.
-                            </span>
-    
-                            <div class="data-review">
-                                <span class="name-person">
-                                    Толя тест
-                                </span>
-                                <p>
-                                    Владелец <span class="person-car">Lexus LX600</span>
-                                </p>
-                            </div>
-                        </div>
-    
-                        <div class="rev-block2 rev-blocks">
-                            <span class="review-span">
-                                TEST(1) – это настоящие профессионалы своего дела! Заказывал у них пригон автомобиля из Кореи, и остался в полном восторге. Все мои пожелания были учтены, и мне нашли отличный автомобиль с минимальным пробегом и полным пакетом документов. Постоянно держали меня в курсе процесса, а также помогли с таможней и регистрацией. Сервис высочайшего уровня, однозначно буду рекомендовать друзьям и знакомым!
-                            </span>
-    
-                            <div class="data-review">
-                                <span class="name-person">
-                                    Владимир
-                                </span>
-                                <p>
-                                    Владелец <span class="person-car">Mercedes-Benz G-Class</span>
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
             </div>
@@ -398,7 +367,7 @@
             <div class="footer-data">
                 <div class="foot-logo">
                     <img src="img/logo-footer.png" />
-                    <span>Наши принципы - это честность, внимание к деталям и индивидуальный подход к каждому клиенту.</span>
+                    <span>Автостабильность - это находим лучшее из возможного.</span>
                 </div>
 
                 <div class="foot-contacts">

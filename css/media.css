@@ -297,6 +297,19 @@
     .cars-list2 h1 {
         font-size: 40px;
     }
+
+    .cars2-up-text {
+        display: none;
+    }
+
+    .order-text {
+        margin-top: -100px;
+    }
+
+    .eq-text h1 {
+        font-size: 80px;
+        line-height: 1;
+    }
 }
 
 
@@ -428,6 +441,58 @@
     .cars-list2-black {
         margin-top: -250px;
     }
+
+    .cars-list2-text {
+        margin-top: 100px;
+    }
+
+    .car2-menu p {
+        font-size: 40px;
+        text-align: right;
+    }
+
+    .cars2-btn a {
+        font-size: 15px;
+    }
+
+    .cars2-btn svg { display: none; }
+
+    .cart2-data {
+        max-width: 250px;
+    }
+
+    .cars2-name h1 {
+        font-size: 40px;
+    }
+
+    .cars2-name {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .thumbnail {
+        display: none;
+    }
+
+    .modal-image {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+    }
+
+    .eq-text h1 {
+        font-size: 50px;
+        line-height: 1;
+    }
+
+    .list-products {
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+        text-align: center;
+    }
 }
 
 @media screen and (width < 700px) {
@@ -467,7 +532,7 @@
         width: 350px;
         text-align: left;
         position: relative;
-        left: -0px;
+        left: 10px;
     }
 
     .right-side span {
@@ -568,5 +633,33 @@
 
     .form {
         padding: 40px 0px 0px 0px;
+    }
+
+    .car2-menu p {
+        font-size: 25px;
+    }
+
+    .cars2-btn a {
+        font-size: 10px;
+    }
+
+    .cart2-data li {
+        font-size: 13px;
+    }
+
+    .cart2-data {
+        max-width: 160px;
+    }
+
+    .cars-list2-black {
+        margin-top: -500px;
+    }
+
+    .eq-text h1 {
+        font-size: 30px;
+    }
+
+    .eq-h1 {
+        font-size: 30px;
     }
 }

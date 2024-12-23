@@ -160,3 +160,17 @@ rightArrow.addEventListener('click', () => {
 window.addEventListener('resize', () => showReviews(currentIndex));
 
 showReviews(currentIndex);
+
+
+document.addEventListener("DOMContentLoaded", function() {
+    const checkbox = document.getElementById('privacy-policy');
+    const submitBtn = document.getElementById('submit-btn');
+    
+    checkbox.addEventListener('change', function() {
+        if (checkbox.checked) {
+            submitBtn.removeAttribute('disabled'); 
+        } else {
+            submitBtn.setAttribute('disabled', true); 
+        }
+    });
+});
