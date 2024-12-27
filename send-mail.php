@@ -8,7 +8,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $budget = htmlspecialchars($_POST['budget']);
     $comment = htmlspecialchars($_POST['comment']);
 
-    $to = "nikrozhko125@gmail.com"; 
+    $to = "autostability@bk.ru"; 
     $subject = "Новая заявка с формы";
     $headers = "Content-Type: text/html; charset=UTF-8\r\n";
 

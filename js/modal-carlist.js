@@ -61,12 +61,64 @@ function closeModal() {
 
 const cars = [
     {
-        name: 'Lexus LX 600',
-        images: ['img/car.png', 'img/g63.png', 'img/car.png', 'img/car.png'],
+        name: 'Dodge RAM',
+        images: ['img/ram/ram1-1.png', 'img/ram/ram1-2.png', 'img/ram/ram1-3.png', 'img/ram/ram1-4.png'],
     },
     {
-        name: 'Mercedes-Benz G-Class',
-        images: ['img/g63.png', 'img/gmc.png', 'img/g63.png', 'img/g63.png'],
+        name: 'Dodge RAM',
+        images: ['img/ram/ram2-1.png', 'img/ram/ram2-2.png', 'img/ram/ram2-3.png', 'img/ram/ram2-4.png'],
+    },
+    {
+        name: 'Dodge RAM',
+        images: ['img/ram/ram3-1.png', 'img/ram/ram3-2.png', 'img/ram/ram3-3.png', 'img/ram/ram3-4.png'],
+    },
+    {
+        name: 'Chevrolet Tahoe',
+        images: ['img/tahoe/tah1-1.png', 'img/tahoe/tah1-2.png', 'img/tahoe/tah1-2.png', 'img/tahoe/tah1-2.png'],
+    },
+    {
+        name: 'Chevrolet Tahoe',
+        images: ['img/tahoe/tah2-1.png', 'img/tahoe/tah2-2.png', 'img/tahoe/tah2-3.png', 'img/tahoe/tah2-4.png'],
+    },
+    {
+        name: 'GMC Yukon',
+        images: ['img/gmc/gmc1-1.png', 'img/gmc/gmc1-2.png', 'img/gmc/gmc1-3.png', 'img/gmc/gmc1-4.png'],
+    },
+    {
+        name: 'GMC Yukon',
+        images: ['img/gmc/gmc1-1.png', 'img/gmc/gmc1-2.png', 'img/gmc/gmc1-3.png', 'img/gmc/gmc1-4.png'],
+    },
+    {
+        name: 'Jeep Grand Cherokee',
+        images: ['img/jeep/jeep1-1.png', 'img/jeep/jeep1-2.png', 'img/jeep/jeep1-3.png', 'img/jeep/jeep1-4.png'],
+    },
+    {
+        name: 'Jeep Grand Cherokee',
+        images: ['img/jeep/jeep2-1.png', 'img/jeep/jeep2-2.png', 'img/jeep/jeep2-3.png', 'img/jeep/jeep2-4.png'],
+    },
+    {
+        name: 'Lexus RX',
+        images: ['img/lexus/lexus1-1.png', 'img/lexus/lexus1-2.png', 'img/lexus/lexus1-3.png', 'img/lexus/lexus1-4.png'],
+    },
+    {
+        name: 'Honda CR-V',
+        images: ['img/honda/honda1-1.png', 'img/honda/honda1-2.png', 'img/honda/honda1-3.png', 'img/honda/honda1-4.png'],
+    },
+    {
+        name: 'Audi Q7',
+        images: ['img/audi/audi1-1.png', 'img/audi/audi1-2.png', 'img/audi/audi1-3.png', 'img/audi/audi1-4.png'],
+    },
+    {
+        name: 'Mitsubishi Pajero Sport',
+        images: ['img/mitsubishi/m1-1.png', 'img/mitsubishi/m1-2.png', 'img/mitsubishi/m1-3.png', 'img/mitsubishi/m1-4.png'],
+    },
+    {
+        name: 'Mini John Cooper Works',
+        images: ['img/mini/mini1-1.png', 'img/mini/mini1-2.png', 'img/mini/mini1-3.png', 'img/mini/mini1-4.png'],
+    },
+    {
+        name: 'GMC Yukon',
+        images: ['img/gmc.png', 'img/car.png', 'img/gmc.png', 'img/gmc.png'],
     },
     {
         name: 'GMC Yukon',

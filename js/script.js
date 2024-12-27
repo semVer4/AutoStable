@@ -12,28 +12,40 @@ const carsData = [
         price: 22000,
     },
     {
-        brand: "Mercedes-Benz",
-        model: "G63",
-        image: "img/g63.png",
-        description: "Стильный и мощный внедорожник Lexus LX 600 с передовыми технологиями и роскошным интерьером. Отличное сочетание комфорта и высокой проходимости.",
-        year: 2020,
-        mileage: 10000,
-        engine: "Бензиновый, 2.5",
-        power: 181,
-        body: "Седан",
-        price: 22000,
+        brand: "Dodge",
+        model: "RAM",
+        image: "img/ram/ram1-1.png",
+        description: "Стильный и мощный Dodge RAM с передовыми технологиями и роскошным интерьером. Отличное сочетание комфорта и высокой проходимости.",
+        year: 2023,
+        mileage: 1,
+        engine: "Бензиновый, 5.7",
+        power: 395,
+        body: "Пикап",
+        price: 14000000,
     },
     {
         brand: "GMC",
         model: "Yukon",
-        image: "img/gmc.png",
-        description: "Стильный и мощный внедорожник Lexus LX 600 с передовыми технологиями и роскошным интерьером. Отличное сочетание комфорта и высокой проходимости.",
-        year: 2020,
-        mileage: 10000,
-        engine: "Бензиновый, 2.5",
-        power: 181,
-        body: "Седан",
-        price: 22000,
+        image: "img/gmc/gmc1-1.png",
+        description: "Стильный и мощный внедорожник GMC Yukon с передовыми технологиями и роскошным интерьером. Отличное сочетание комфорта и высокой проходимости.",
+        year: 2024,
+        mileage: 1,
+        engine: "Бензиновый, 6.2",
+        power: 426,
+        body: "Внедорожник",
+        price: 18200000,
+    },
+    {
+        brand: "Chevrolet ",
+        model: "Tahoe",
+        image: "img/tahoe/tah1-1.png",
+        description: "Стильный и мощный Chevrolet Tahoe с передовыми технологиями и роскошным интерьером. Отличное сочетание комфорта и высокой проходимости.",
+        year: 2024,
+        mileage: 1,
+        engine: "Бензиновый, 5.3",
+        power: 360,
+        body: "Внедорожник",
+        price: 14500000,
     }
 ];
 
@@ -85,7 +97,7 @@ function createCarCard(car) {
                 <li>Кузов: <span class="body">${car.body}</span></li>
             </div>
             <div class="home-button">
-                <a href="#" id="home-button">Узнать больше
+                <a href="cars-list.html" id="home-button">Узнать больше
                     <svg width="36" height="18" viewBox="0 0 36 18" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 8.65306L33.2292 8.95918M34.5 8.95918H33.2292M33.2292 8.95918C30.1597 7.63265 23.8083 3.69388 22.9583 1M33.2292 8.95918C30.5139 10.3878 24.6583 14.7959 22.9583 17" stroke="#202020" stroke-width="1.3" stroke-linecap="round"/>
                 </svg></a>
