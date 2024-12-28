@@ -177,12 +177,21 @@ showReviews(currentIndex);
 document.addEventListener("DOMContentLoaded", function() {
     const checkbox = document.getElementById('privacy-policy');
     const submitBtn = document.getElementById('submit-btn');
+    const form = document.getElementById('order-form');
     
     checkbox.addEventListener('change', function() {
         if (checkbox.checked) {
-            submitBtn.removeAttribute('disabled'); 
+            submitBtn.removeAttribute('disabled');
+            checkbox.classList.remove('checkbox-error');
         } else {
-            submitBtn.setAttribute('disabled', true); 
+            submitBtn.setAttribute('disabled', true);
+        }
+    });
+
+    form.addEventListener('submit', function(event) {
+        if (!checkbox.checked) {
+            checkbox.classList.add('checkbox-error');
+            event.preventDefault();
         }
     });
 });

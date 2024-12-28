@@ -1304,3 +1304,11 @@ header {
 .contacts2 {
     margin-top: 200px;
 }
+
+
+.checkbox-error {
+    outline: 2px solid red;
+}
+.checkbox-error + label {
+    color: red;
+}
